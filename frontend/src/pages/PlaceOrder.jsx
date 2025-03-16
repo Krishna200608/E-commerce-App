@@ -6,7 +6,6 @@ import { ShopContext } from '../context/ShopContext'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 import { loadRazorpayScript } from '../loadRazorpayScript'; // Adjust path as needed
-import { currency } from '../../../admin/src/App'
 
 const PlaceOrder = () => {
 
