@@ -144,5 +144,5 @@ This project is open source and available under the [IIITA License](LICENSE). �
 
 ## Contact 📧📞📌
 
-For any questions or suggestions, please open an issue or contact [krishnasikheriya001.com](mailto:your-email@example.com). 💬📬🤝
+For any questions or suggestions, please open an issue or contact [krishnasikheriya001@gmail.com](mailto:your-email@example.com). 💬📬🤝
 
