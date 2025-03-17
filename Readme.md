@@ -41,7 +41,7 @@ Follow these instructions to set up and run the project locally.
 - [Node.js](https://nodejs.org/en/download/) (v14 or later)
 - [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
 - A MongoDB instance (local or hosted, e.g., MongoDB Atlas)
-- Razorpay API keys and Stripe API keys (if using payment gateways)
+- Razorpay API keys and Stripe API keys
 
 ### Clone the Repository 📥💾🔗
 
