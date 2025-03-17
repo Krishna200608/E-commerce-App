@@ -21,8 +21,7 @@ Welcome to **Forever**, a full-featured e-commerce platform designed to provide 
 - **Admin Panel:** React, Vite, [Admin UI library of your choice]
 - **Backend:** Node.js, Express, MongoDB
 - **Payment Integration:** Razorpay, Stripe (if applicable)
-- **Deployment:** Vercel (for frontend and admin), [Your choice for backend hosting]
-
+- **Deployment:** Vercel (for frontend, backend and admin)
 ## Features 🎯🛒⚙️
 
 - **User Registration & Authentication:** Secure user login and registration.
@@ -85,12 +84,30 @@ Each part of the project (frontend, admin, backend) has its own dependencies. Fo
 Create a `.env` file in each respective folder (frontend, admin, backend) as needed. For example, in the **backend** folder, your `.env` file might include:
 
 ```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-RAZORPAY_KEY=your_razorpay_key
-RAZORPAY_SECRET=your_razorpay_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
+MONGODB_URI = "Your_MongoDB_Url"
+CLOUDINARY_API_KEY = "Your_Key"
+CLOUDINARY_SECRET_KEY = "Your_Secret_key"
+CLOUDINARY_NAME = "Your_cloudinary_name"
+JWT_SECRET = "Any_random_string"
+ADMIN_EMAIL = "Your_admin_email(any)"
+ADMIN_PASSWORD = "Your_passoword"
+STRIPE_SECRET_KEY = "Your_Stripe_secret_key"
+RAZORPAY_KEY_ID = "Your_razor_pay_id"
+RAZORPAY_KEY_SECRET = "Your_razor_pay_key_secret"
 ```
+
+For **Frontend** env:
+
+```env
+VITE_BACKEND_URL=http://localhost:4000
+VITE_RAZORPAY_KEY_ID = "Your_razor_pay_key_id(same as backend)"
+```
+For **admin** env:
+
+```env
+VITE_BACKEND_URL = 'http://localhost:4000'
+```
+
 
 Make sure to replace placeholder values with your actual credentials. 🔒📜✅
 
@@ -100,7 +117,7 @@ Make sure to replace placeholder values with your actual credentials. 🔒📜�
 
    ```bash
    cd frontend
-   npm run dev
+   npm start
    ```
 
 2. **Admin Panel:**
@@ -117,14 +134,14 @@ Make sure to replace placeholder values with your actual credentials. 🔒📜�
    npm run server
    ```
 
-The frontend and admin panels should now be running on their respective local ports (usually `http://localhost:3000` for Vite projects), and your backend will be available as specified in your configuration. 🌐🚀⚙️
+The frontend and admin panels should now be running on their respective local ports (usually `http://localhost:5173` ans `http://localhost:5174` respectively for Vite projects), and your backend will be available as specified in your configuration. 🌐🚀⚙️
 
 ## Deployment 🚀📤🌍
 
 For deployment:
 
-- **Frontend & Admin:** Deployed on Vercel. The root directories are set accordingly in your Vercel project settings.
-- **Backend:** Deploy on your preferred hosting platform (e.g., Heroku, DigitalOcean, AWS).
+- **Frontend, Backend & Admin:** Deployed on Vercel. The root directories are set accordingly in your Vercel project settings.
+
 
 Ensure that your environment variables are correctly set on the hosting platform as well. ✅📡🔧
 
@@ -144,5 +161,5 @@ This project is open source and available under the [IIITA License](LICENSE). �
 
 ## Contact 📧📞📌
 
-For any questions or suggestions, please open an issue or contact [krishnasikheriya001.com](mailto:your-email@example.com). 💬📬🤝
+For any questions or suggestions, please open an issue or contact [krishnasikheriya001@gmail.com](mailto:your-email@example.com). 💬📬🤝
 
