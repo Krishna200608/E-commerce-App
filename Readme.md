@@ -1,4 +1,4 @@
-# Forever - E-commerce Project ✨🛍️🚀
+# Forever : E-commerce Project ✨🛍️🚀
 
 Welcome to **Forever**, a full-featured e-commerce platform designed to provide a seamless shopping experience. This repository contains the source code for the frontend, admin panel, and backend server. 🎯🔧💻
 
