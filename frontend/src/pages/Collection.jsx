@@ -51,6 +51,7 @@ const collection = () => {
     setFilterProducts(productsCopy);
   }
 
+
   const sortProduct = () => {
     
     let fpCopy = filterProducts.slice();
@@ -68,7 +69,6 @@ const collection = () => {
         applyFitler();
         break;
     }
-
   }
 
   // Used to display the output if the checkbox filter is correctly working or not 
